@@ -84,8 +84,8 @@ while (true)
     }
     else if (command == "2")
     {
-        List<string> list = new List<string>();
-        string[] copylist = new string[list.Count()];
+        ArrayList list = new ArrayList();
+        string[] copylist = new string[list.Count];
         while (true)
         {
             Console.Clear();
@@ -143,7 +143,7 @@ while (true)
             }
             else if (command == "9")
             {
-                Console.WriteLine(list.Count());
+                Console.WriteLine(list.Count);
                 Console.ReadLine();
             }
             else if (command == "10")
