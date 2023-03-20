@@ -85,7 +85,7 @@ while (true)
     else if (command == "2")
     {
         ArrayList list = new ArrayList();
-        string[] copylist = new string[list.Count];
+        string[] copylist = new string[list.Count]; //в List пишется с ()
         while (true)
         {
             Console.Clear();
